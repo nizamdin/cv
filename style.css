@@ -1,0 +1,197 @@
+
+
+/* gird seting */
+
+*{
+    font-family: 'Arimo', sans-serif;
+ 
+}
+.container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        'navbar navbar'
+        'aside1 aside2';
+   
+}
+
+
+#navbar {
+    grid-area: navbar;
+}
+
+
+#aside {
+    grid-area: aside;
+}
+
+
+
+/* navbar  */
+.item {
+    background-color: white;
+    padding: 2px 2px;
+    /* margin: 10px 20px 3px 12px; */
+    margin: 3px 12px 5px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   
+}
+
+.container #navbar #name{
+    font-size: 25px;
+}
+/* profile image  */
+img {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+/* Name  */
+.container .item h2 {
+    margin: 5px;
+
+}
+
+/* Contact and socil links */
+.container .item ul {
+    display: flex;
+    
+}
+
+.container .item ul li {
+    
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* contact  social icon size  */
+.container .item ul li img {
+    width: 18px;
+    height: 18px;
+
+}
+.container .item ul li a {
+    margin: 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.container .item ul li a {
+    color: black;
+
+}
+
+.container .item ul li a:active {
+    color: blue;
+
+}
+
+.container .item ul li a:hover {
+    color: blue;
+
+}
+
+
+/* aside 1 */
+
+.item2 {
+    background-color: white;
+    padding: 2px 2px;
+    /* margin: 10px 20px 3px 12px; */
+    margin: 3px 5px 3px 25px;
+
+}
+
+
+/* Heading icons  for aside 1 and aside 2*/
+
+#icon {
+    
+    width: 23px;
+    height: 23px;
+    margin-right: 6px;
+    
+}
+
+/* heading font size  aside 1 and 2*/
+
+h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Profile prafraph */
+#aside1 p {
+
+    text-align: justify;
+    font-size: 17px;
+    line-height: 27px;
+    margin-left: 40px;
+    padding: 8px;
+
+}
+
+/* edcation Table */
+
+#aside1 table {
+    margin-left: 40px;
+}
+
+#aside1 table tr th {
+    list-style: none;
+    font-size: 17px;
+    padding: 8px;
+
+}
+
+/* <!-- shortcourse --> */
+
+#aside1 li {
+    list-style: none;
+    font-size: 17px;
+    padding: 6px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+span.fa.fa-star.checked{
+float: right;
+}
+
+
+/* Aside 2 */
+
+.item3 {
+    background-color: white;
+    padding: 2px 2px;
+    /* margin: 10px 20px 3px 12px; */
+    margin: 3px 25px 5px 0px;
+}
+
+#aside2 li {
+    list-style: none;
+    font-size: 17px;
+    padding: 6px;
+    margin-left: 40px;
+}
+
+/* <!-- INTERPERSONAL SKILLS --> */
+
+
+/* computer skill */
+.checked {
+    color: orange;
+
+}
+
+/* <!-- LANGUAGES --> */
+
+
+
+
