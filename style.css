@@ -40,9 +40,9 @@
 }
 
 .container #navbar #name{
-    font-size: 25px;
+    font-size: 21px;
 }
-/* profile image  */
+/* profile image */
 img {
     border-radius: 50%;
     width: 110px;
@@ -66,21 +66,21 @@ img {
     margin: 5px;
     list-style: none;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 /* contact  social icon size  */
 .container .item ul li img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 
 }
 .container .item ul li a {
     margin: 5px;
     list-style: none;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
 }
 .container .item ul li a {
@@ -114,8 +114,8 @@ img {
 
 #icon {
     
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     margin-right: 6px;
     
 }
@@ -123,7 +123,7 @@ img {
 /* heading font size  aside 1 and 2*/
 
 h2{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ h2{
 #aside1 p {
 
     text-align: justify;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 27px;
     margin-left: 40px;
     padding: 8px;
@@ -146,7 +146,7 @@ h2{
 
 #aside1 table tr th {
     list-style: none;
-    font-size: 17px;
+    font-size: 13px;
     padding: 8px;
 
 }
@@ -155,7 +155,7 @@ h2{
 
 #aside1 li {
     list-style: none;
-    font-size: 17px;
+    font-size: 13px;
     padding: 6px;
     margin-left: 40px;
     font-weight: bold;
@@ -176,7 +176,7 @@ float: right;
 
 #aside2 li {
     list-style: none;
-    font-size: 17px;
+    font-size: 13px;
     padding: 6px;
     margin-left: 40px;
 }
